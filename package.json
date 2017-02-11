@@ -41,5 +41,7 @@
     "cids": "^0.4.1",
     "multihashes": "^0.3.3"
   },
-  "contributors": []
+  "contributors": [
+    "David Dias <daviddias.p@gmail.com>"
+  ]
 }
