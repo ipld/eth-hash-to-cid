@@ -9,16 +9,16 @@
     "test"
   ],
   "scripts": {
-    "lint": "aegir-lint",
-    "build": "aegir-build",
-    "test": "aegir-test",
-    "test:node": "aegir-test node",
-    "test:browser": "aegir-test browser",
-    "release": "aegir-release",
-    "release-minor": "aegir-release --type minor",
-    "release-major": "aegir-release --type major",
-    "coverage": "aegir-coverage",
-    "coverage-publish": "aegir-coverage publish"
+    "lint": "aegir lint",
+    "build": "aegir build",
+    "test": "aegir test",
+    "test:node": "aegir test -t node",
+    "test:browser": "aegir test -t browser",
+    "release": "aegir release",
+    "release-minor": "aegir release --type minor",
+    "release-major": "aegir release --type major",
+    "coverage": "aegir coverage",
+    "coverage-publish": "aegir coverage publish"
   },
   "keywords": [
     "IPFS"
@@ -33,13 +33,13 @@
   "homepage": "https://github.com/ipld/eth-hash-to-cid#readme",
   "license": "MIT",
   "devDependencies": {
-    "aegir": "^10.0.0",
-    "chai": "^3.5.0",
+    "aegir": "^13.0.6",
+    "chai": "^4.1.2",
     "pre-commit": "^1.2.2"
   },
   "dependencies": {
-    "cids": "^0.4.1",
-    "multihashes": "^0.3.3"
+    "cids": "^0.5.3",
+    "multihashes": "^0.4.13"
   },
   "contributors": [
     "David Dias <daviddias.p@gmail.com>"
